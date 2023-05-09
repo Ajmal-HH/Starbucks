@@ -1,0 +1,507 @@
+@import url(//db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+/* -----------------header------------- */
+.header{
+    width: 100%;
+    height: 100px;
+    background: white;
+    align-items: center;
+    display: flex;
+    box-shadow: black  0px 0.5px 3px 0px;
+    box-sizing: border-box;
+
+}
+.logo {
+    width: 130px;
+    height: 90px;
+    cursor: pointer;
+
+}
+.header-p{
+    margin-left: 20px;
+    color:#000000DE;
+    font-size: 15px;
+    font-family: "SoDo Sans SemiBold";
+
+    font-weight: 700;
+    cursor: pointer;
+    
+    
+
+}
+.header-p:hover{
+    color: #00754a;
+}
+.header-r{
+    width: 350px;
+    height: 100px;
+    background: white;
+    margin-left: 561px;
+    align-items: center;
+    display: flex;
+}
+.location{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.location:hover{
+    color: #00754a;
+
+}
+.headerleft-p{
+    font-size: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+.headerleft-p:hover{
+    color: #00754a;
+
+}
+.sign {
+    margin-left: 60px;
+    width: 75px;
+    height: 30px;
+    border-radius: 16px;
+    border-width: 1px;
+    border-style: solid;
+    background: transparent;
+    cursor: pointer;
+
+}
+.sign:hover{
+background: lightgray;
+}
+.join{
+    margin-left: 15px;
+    width: 75px;
+    height: 30px;
+    border-radius: 16px;
+    border-width: 1px;
+    border-style: solid;
+    background: black;
+    color: white;
+    cursor: pointer;
+
+}
+.join:hover{
+    opacity:70%;
+
+}
+.headerp1{
+    display: flex;
+    height: 100px;
+    width: 250px;
+    align-items:center ;
+}
+
+/* ---------------first row---------- */
+
+.header1{
+ width: 100%;
+ height: 540px;
+ margin-top: 30px;
+ background-color: #f6bfd9;
+ display: flex;
+
+}
+.header1left{
+    width: 50%;
+    height: 540px;
+    background: #f6bfd9;
+
+}
+.title{
+    font-size: 50px;
+    padding:150px ;
+    font-weight: 500;
+    color: #000000DE;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    
+
+}
+.header1-p{
+    font-size: 24px;
+    text-align: center;
+    margin-top: -100px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.header1right{
+    width: 50%;
+    height: 540px;
+    background: forestgreen;
+}
+.image1{
+    width: 100%;
+    height: 540px;
+}
+.giftbutton{
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    margin-left: 260px;
+    margin-top: 25px;
+    background: transparent;
+    cursor: pointer;
+} 
+
+
+/* ---------------second row---------------- */
+
+.header2{
+    margin-top: 35px;
+    width: 100%;
+    height: 250px;
+    background: #d4e9e2;
+    display: flex;
+
+}
+.header2left{
+    height: 250px;
+    width: 50%;
+}
+.image2{
+    width: 100%;
+    height: 250px;
+}
+.header2right{
+    height: 250px ;
+    width: 50%;
+    background: #d4e9e2;
+    
+}
+.h2title{
+    padding: 35px;
+    justify-content: center;
+    display: flex;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+}
+.header2-p{
+    font-size: 19px;
+    text-align: center;
+    font-family: Helvetica;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.join-now{
+    width: 90px;
+    height: 30px;
+    border-radius: 16px;
+    background: transparent;
+    margin-left:43% ;
+    margin-top:7% ;
+    cursor: pointer;
+
+    
+
+}
+/* -------------third row------------- */
+
+.header3{
+    width: 100%;
+    height: 540px;
+    margin-top: 35px;
+    background-color: #f6bfd9;
+    display: flex;
+   
+
+}
+.header3left{
+    width: 50%;
+    height: 540px;
+    background: #ffc519;
+}
+.header3right{
+    width: 50%;
+    height: 540px;
+
+}
+.image3{
+    width: 100%;
+    height: 540px;
+}
+.header3button{
+    width: 90px;
+    height: 30px;
+    border-radius: 16px;
+    margin-left: 250px;
+    margin-top: 20px;
+    background-color: transparent;
+    cursor: pointer;
+}
+/* -------fourth row----------- */
+.header4{
+    width: 100%;
+    height: 540px;
+    margin-top: 35px;
+    background-color: #fff4d4;
+    display: flex;
+}
+   
+
+.header4left{
+    width: 50%;
+    height: 540px;
+    background: #fff4d4;
+}
+.header4right{
+    width: 50%;
+    height: 540px;
+    background: #fff4d4;
+
+}
+.header4h1{
+    font-size: 50px;
+    padding:100px ;
+    margin-left: 25px;
+    font-family:Helvetica ,sans-serif ;
+    font-weight: 500;
+    color: #000000DE;
+    
+ 
+}
+.header4-p{
+    font-size: 24px;
+    text-align: center;
+    font-family: Helvetica;
+    margin-top: -60px;
+}
+.header4button{
+    width: 90px;
+    height: 30px;
+    border-radius: 16px;
+    margin-left: 280px;
+    margin-top: 20px;
+    background-color: transparent;
+    cursor: pointer;
+}
+/* -----------fifth row------- */
+
+.header5{
+    width: 100%;
+    height: 540px;
+    margin-top: 35px;
+    background-color: #a0c292;
+    display: flex;
+   
+}
+.header5left{
+    width: 50%;
+    height: 540px;
+    background-color: #a0c292;
+
+}
+.header5right{
+    width: 50%;
+    height: 540px;
+    background-color: #a0c292;
+    display: flex;
+    justify-content: center;
+}
+.header5h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: 530;
+    margin-top: 100px;
+    
+}
+.header5-p{
+    font-size: 24px;
+    text-align: center;
+    font-family: Helvetica;
+    margin-top: 30px;
+}
+/* -----------sixt row---------- */
+
+.header6{
+    width: 100%;
+    height: 540px;
+    margin-top: 35px;
+    background-color: #f0f0ea;
+    display: flex;
+}
+.header6left{
+    width: 50%;
+    height: 540px;
+}
+.header6right{
+    width: 50%;
+    height: 540px;
+    background-color:  #f0f0ea;
+   
+
+}
+.header6h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: 530;
+    margin-top: 100px;
+    text-align: center;
+}
+.header6-p{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 40px;
+} 
+.header4button{
+    width: 120px;
+    height: 40px;
+    border-radius: 120px;
+    margin-left: 280px;
+    margin-top: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* --------7th row------- */
+
+
+.header7{
+    width: 100%;
+    height: 310px;
+    background: white;
+    margin-top: 35px;
+   
+
+}
+.header7p{
+    font-size: 24px;
+    text-align: center;
+    padding: 60px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.header7p1{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+/* ---------8th row----- */
+
+.header8{
+    width: 100%;
+    height: 450px;
+    background: white;
+    display: flex;
+    box-shadow: black  0px 6px 12px 0px;
+    box-sizing: border-box;
+    
+}
+li{
+    list-style: none;
+    line-height: 50px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    color: lightslategray;
+}
+li:hover{
+color: black;
+}
+h4{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.list1{
+    margin-left: 25px;
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 100;
+    
+
+
+}
+.list2{
+    margin-left: 35px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.list3{
+    margin-left: 40px;
+    font-size: 15px;
+    margin-top: 20px;
+
+}
+.list4{
+    margin-left: 30px;
+    font-size: 15px;
+    margin-top: 20px;
+
+}
+.list5{
+    margin-left: 40px;
+    font-size: 15px;
+    margin-top: 20px;
+
+}
+h4{
+    font-size: 20px;
+}
+/* ------footer------- */
+
+footer{
+    width: 100%;
+    height: 120px;
+    background: white;
+    display: flex;
+}
+.fimg{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.footer2{
+    margin-top: 80px;
+    margin-left: -309px;
+    font-size: 20px;
+    display: flex;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    
+}
+.space{
+    margin-left: 10px;
+    
+}
+.footerp{
+    font-size: 15px;
+    font-weight: 200px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+}
+.foo{
+    margin-left: 10px;
+}
+.footer3{
+
+    background: white;
+    height: 100px;
+    width: 100%;
+    margin-left: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+a:hover{
+ text-decoration: underline;
+}
